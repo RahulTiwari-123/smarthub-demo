@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("SmartHub.ai - Demo")
 
-client = OpenAI(api_key="sk-proj-gYo2XcFHTtmb7uIxJxFBT3BlbkFJL03dQS7x6sXrb55mzrHs")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-4-turbo"
