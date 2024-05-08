@@ -1,7 +1,7 @@
 from openai import OpenAI
 import streamlit as st
 
-st.title("Smarthub - Demo on OpenAI 4 Turbo")
+st.title("SmartHub.ai - Demo")
 
 client = OpenAI(api_key="sk-proj-LRvBE7AD6UzXc6jkmvomT3BlbkFJdxMhNn70XtNoiAqzlqKT")
 
